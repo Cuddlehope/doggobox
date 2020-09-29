@@ -15,7 +15,22 @@ body {
     list-style: none;
     display: inline;
 }
-
+.gskn {
+background-color: green;
+}
+.gh {
+background-color: blue;
+}
+.rh {
+color: red;
+}
+.ys {
+background-color: yellow;
+}
+.bt {
+background-color: black;
+color: white;
+}
 #tabs li button {
     color: #282e32;
     padding: 8px 14px 8px 14px;
