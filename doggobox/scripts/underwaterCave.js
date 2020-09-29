@@ -42,7 +42,7 @@ var underwaterCave = {
                 if(i > 2){ // If we're underwater
                     if(i >= 26 && i <= 35){ // Eel zone
                         if(random.oneChanceOutOf(3)){
-                            quest.things[i] = land.createMob("<span style=\"color:blue\">\"E<\/span>EL", 3, 3, "electric tail", "An eel. Weak, but aggressive.", [drops.createDrop("candies", 50 + random.getRandomIntUpTo(50))]);
+                            quest.things[i] = land.createMob("<span style='color:blue'>\"E</span>EL", 3, 3, "electric tail", "An eel. Weak, but aggressive.", [drops.createDrop("candies", 50 + random.getRandomIntUpTo(50))]);
                         }
                     }
                     else{
