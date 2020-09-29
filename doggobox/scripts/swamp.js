@@ -62,7 +62,7 @@ var swamp = {
                 text += "\n\n<button id=\"answer\" onClick=\"swamp.setStep(17);\">ONWARD</button>";
                 break;
             case 17:
-                text = speech.makeSpeechFromText("Obviously. But they're hypothetical dogs anyway. Now, here's 5 very special potions. They'll be very useful during quests. Now, what is the only thing above and beyond the limits of the universe?", 29. "");
+                text = speech.makeSpeechFromText("Obviously. But they're hypothetical dogs anyway. Now, here's 5 very special potions. They'll be very useful during quests. Now, what is the only thing above and beyond the limits of the universe?", 29, "");
                 text += "\n\n<button id=\"answer\" onClick=\"swamp.setStep(18);\">Yayy !!</button>";
             default:
                 text = speech.makeSpeechFromText("I have no more sweets to give you. It was a real pleasure to play with you. Thanks a lot.", 29, "");
