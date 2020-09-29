@@ -468,7 +468,7 @@ var quest = {
 
     makeChimera: function() {
         var hp = 50 + random.getRandomIntUpTo(7);
-        return land.createAlly("CHI", hp, hp, "fire", "A chimera : lion, serpent and goat at the same time.", []);
+        return land.createAlly("<span style='color: brown;'>CH</span><span style='color: red;'>I</span>", hp, hp, "fire", "A chimera : lion, serpent and goat at the same time.", []);
     },
 
     makeCandyMonster: function() {
