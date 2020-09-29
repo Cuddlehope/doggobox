@@ -36,27 +36,27 @@ var mountGoblin = {
     getText: function() {
         var text = "";
 
-        text += "                                    ";
+        text += "<span style='color: gray;'>                                    </span>";
         for (var i = 12; i < 16; i++) text += quest.things[i].text;
-        text += "\n";
-        text += "                           ";
+        text += "<span style='color: gray;'>\n</span>";
+        text += "<span style='color: gray;'>                           </span>";
         for (var i = 9; i < 12; i++) text += quest.things[i].text;
-        text += "/ \\/ \\/ \\/ \\";
+        text += "<span style='color: gray;'>/ \\/ \\/ \\/ \\</span>";
         for (var i = 16; i < 19; i++) text += quest.things[i].text;
-        text += "\n";
-        text += "                  ";
+        text += "<span style='color: gray;'>\n</span>";
+        text += "<span style='color: gray;'>                  </span>";
         for (var i = 6; i < 9; i++) text += quest.things[i].text;
-        text += "/ \\/ \\/ \\  /   \\  \\  / \\/ \\/ \\";
+        text += "<span style='color: gray;'>/ \\/ \\/ \\  /   \\  \\  / \\/ \\/ \\</span>";
         for (var i = 19; i < 22; i++) text += quest.things[i].text;
-        text += "\n";
-        text += "         ";
+        text += "<span style='color: gray;'>\n</span>";
+        text += "<span style='color: gray;'>         </span>";
         for (var i = 3; i < 6; i++) text += quest.things[i].text;
-        text += "/ \\/ \\/ \\   \\ /   \\/     \\  \\/  /   \\  / \\/ \\/ \\";
+        text += "<span style='color: gray;'>/ \\/ \\/ \\   \\ /   \\/     \\  \\/  /   \\  / \\/ \\/ \\</span>";
         for (var i = 22; i < 25; i++) text += quest.things[i].text;
-        text += "\n";
-        text += "";
+        text += "<span style='color: gray;'>\n</span>";
+        text += "<span style='color: gray;'></span>";
         for (var i = 0; i < 3; i++) text += quest.things[i].text;
-        text += "/ \\/ \\/ \\  /  /   \\   /    /       \\ /  /     \\/  /   \\  / \\/ \\/ \\";
+        text += "<span style='color: gray;'>/ \\/ \\/ \\  /  /   \\   /    /       \\ /  /     \\/  /   \\  / \\/ \\/ \\</span>";
         for (var i = 25; i < 28; i++) text += quest.things[i].text;
 
         return text;
