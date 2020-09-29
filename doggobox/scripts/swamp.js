@@ -35,7 +35,7 @@ var swamp = {
                 break;
             case 10:
                 text = speech.makeSpeechFromText("Exactly. Let's speed up the process : here's your 512 doggi right now! Playing with you is so exciting! Next question is for 1000 doggi.", 29, "");
-                text += "\n\n<button id=\"answer\" onClick=\"swamp.setStep(11);\">Candiiiiies!</button>";
+                text += "\n\n<button id=\"answer\" onClick=\"swamp.setStep(11);\">Doggiiiiiiiiiii!</button>";
                 break;
             case 11:
                 text = speech.makeSpeechFromText("Fourth question : if you could be whatever you want, what would you be?", 29, "");
@@ -58,9 +58,12 @@ var swamp = {
                 text += answer_form;
                 break;
             case 16:
-                text = speech.makeSpeechFromText("Yes it is ! Now, here's 5 very special potions. They'll be very useful during quests.", 29, "");
-                text += "\n\n<button id=\"answer\" onClick=\"swamp.setStep(17);\">Yay !!</button>";
+                text = speech.makeSpeechFromText("Yes it is ! Have you noticed that you're performing cannibalism when you eat a doggo and a doge?", 29, "");
+                text += "\n\n<button id=\"answer\" onClick=\"swamp.setStep(17);\">ONWARD</button>";
                 break;
+            case 17:
+                text = speech.makeSpeechFromText("Obviously. But they're hypothetical dogs anyway. Now, here's 5 very special potions. They'll be very useful during quests. Now, what is the only thing above and beyond the limits of the universe?", 29. "");
+                text += "\n\n<button id=\"answer\" onClick=\"swamp.setStep(18);\">Yayy !!</button>";
             default:
                 text = speech.makeSpeechFromText("I have no more sweets to give you. It was a real pleasure to play with you. Thanks a lot.", 29, "");
                 break;
@@ -220,11 +223,15 @@ It is coming_    _\n\
                 } else this.setComment("Wrong.");
                 break;
             case 15:
-                if (ans == "theanswertothatquestion" || ans == "theanswer" || ans == "answer" || ans == "answertothatquestion") {
+                if (ans == "duh" || ans == "obviously" || ans == "yes" || ans == "yep" || ans == "ohnothatssoconcerning") {
                     potions.getPotions(potions.list.berserk, 5);
                     this.setStep(16);
                 } else this.setComment("Wrong.");
                 break;
+            case 16:
+                if (ans == "theanswertothatquestion" || ans == "theanswer" || ans == "answer" || ans == "answertothatquestion") {
+                    this.setStep(17);
+                } else this.setComment("Wrong.");
         }
     }
 
