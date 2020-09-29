@@ -89,11 +89,11 @@ var castleEntrance = {
     },
 
     makeGuard: function() {
-        return land.createMob("GUA", 25, 25, "spear", "One of the castle's guards.", [drops.createDrop("doggi", random.getRandomIntUpTo(40))]);
+        return land.createMob("<span style='color: purple;'>GUA</span>", 25, 25, "spear", "One of the castle's guards.", [drops.createDrop("doggi", random.getRandomIntUpTo(40))]);
     },
 
     makeKnight: function() {
-        return land.createMob("KNI", 70, 70, "sharp sword", "A knight with a huge armor.", [drops.createDrop("doggi", 230 + random.getRandomIntUpTo(70)), drops.createDrop("object", "plateArmour", random.oneChanceOutOf(10))]);
+        return land.createMob("<span style='color: gray;'>K<span style='color: red;'>N</span>I</span>", 70, 70, "sharp sword", "A knight with a huge armor.", [drops.createDrop("doggi", 230 + random.getRandomIntUpTo(70)), drops.createDrop("object", "plateArmour", random.oneChanceOutOf(10))]);
     },
 
     getText: function() {
