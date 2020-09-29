@@ -117,7 +117,7 @@ var chuckNorris = {
         "Chuck Norris can build a snowman out of rain.",
         "Chuck Norris once punched a man in the soul.",
         "Chuck Norris can drown a fish.",
-        "Leaving a criminal in the same room as Chuck Norris is cruel and unusual punishment.",
+        "Leaving a criminal in the same room as Chuck Norris is a cruel and unusual punishment.",
         "Chuck Norris can pick oranges from an apple tree and make the best lemonade youve ever tasted.",
         "Once a cobra bit Chuck Norris' leg. After five days of excruciating pain, the cobra died.",
         "Chuck Norris doesn't play \"hide-and-seek.\" He plays \"hide-and-pray-I-don't-find-you.\"",
