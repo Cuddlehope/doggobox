@@ -27,7 +27,7 @@ var mountGoblin = {
                     // Else we spawn a GOB
                     else quest.things[i] = land.createMob("<span style='color: green;'>G</span><span style='color: brown;'>OB</span>", 20, 20, "claws", "A nasty goblin.", [drops.createDrop("doggi", 3 + random.getRandomIntUpTo(3))]);
                 } else {
-                    quest.things[i] = land.createMob("GTB", 30, 30, "dagger", "A tenacious goblin. Oh, he has a dagger, too.", [drops.createDrop("doggi", 9 + random.getRandomIntUpTo(9)), drops.createDrop("object", "key", random.oneChanceOutOf(2)), drops.createDrop("object", "boots", random.oneChanceOutOf(5)), drops.createDrop("object", "swampMap", random.oneChanceOutOf(5)), drops.createDrop("object", "hutMap", random.oneChanceOutOf(5))]);
+                    quest.things[i] = land.createMob("<span style='color: #C0C0C0;'>G</span><span style='color: green;'>T</span><span style='color: brown;'>B</span>", 30, 30, "dagger", "A tenacious goblin. Oh, he has a dagger, too.", [drops.createDrop("doggi", 9 + random.getRandomIntUpTo(9)), drops.createDrop("object", "key", random.oneChanceOutOf(2)), drops.createDrop("object", "boots", random.oneChanceOutOf(5)), drops.createDrop("object", "swampMap", random.oneChanceOutOf(5)), drops.createDrop("object", "hutMap", random.oneChanceOutOf(5))]);
                 }
             }
         }
