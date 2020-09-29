@@ -23,7 +23,7 @@ var mountGoblin = {
                         quest.things[i] = quest.makeBasicChest();
                     }
                     // 1 chance out of 7 we spaw a GSB
-                    else if (random.oneChanceOutOf(7)) quest.things[i] = land.createMob("GSB", 20, 5 + random.getRandomIntUpTo(5), "claws", "A sick goblin. It smells.", [drops.createDrop("doggi", 3 + random.getRandomIntUpTo(3))]);
+                    else if (random.oneChanceOutOf(7)) quest.things[i] = land.createMob("<span style='color: yellow;'>G</span><span style='color: green;'>S</span><span style='color: brown;'>B</span>", 20, 5 + random.getRandomIntUpTo(5), "claws", "A sick goblin. It smells.", [drops.createDrop("doggi", 3 + random.getRandomIntUpTo(3))]);
                     // Else we spawn a GOB
                     else quest.things[i] = land.createMob("<span style='color: green;'>G</span><span style='color: brown;'>OB</span>", 20, 20, "claws", "A nasty goblin.", [drops.createDrop("doggi", 3 + random.getRandomIntUpTo(3))]);
                 } else {
