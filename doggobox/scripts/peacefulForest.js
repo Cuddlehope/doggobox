@@ -54,7 +54,7 @@ var peacefulForest = {
                     quest.things[i] = quest.makeBasicChest();
                 }
                 // Else we spawn a tree
-                else quest.things[i] = land.createMob("<span style='color: green;'>%<span style='color: brown;'>%</span>%</span>", 5, 5, "none", "A tree. It sometimes drops a doggo.", [drops.createDrop("doggi", random.getRandomIntUpTo(1)), drops.createDrop("object", "key", random.oneChanceOutOf(2))]);
+                else quest.things[i] = land.createMob("<span style='color: blue;'>%<span style='color: pink;'>%</span>%</span>", 5, 5, "none", "A tree. It sometimes drops a doggo.", [drops.createDrop("doggi", random.getRandomIntUpTo(1)), drops.createDrop("object", "key", random.oneChanceOutOf(2))]);
             }
         }
 
